@@ -1,0 +1,58 @@
+html, 
+body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    
+}
+
+#username{
+    width:100% ;
+    border-color: azure;
+    padding: 30px;
+
+    
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+
+.form{
+
+    position: absolute;
+    bottom: 15px;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    outline: none;
+    text-decoration: none;
+
+}
+
+#button{
+    font:20px ;
+    width: 175px;
+    height: 65px;
+    outline: none;
+    border: none;
+    background-color: darkcyan;
+    color: #fff;
+    transition: 0.2s all linear ;
+}
+
+#button:hover{
+   color: #fff;
+   background-color: darkgreen;
+
+}
+p{
+    background-color: gainsboro;
+    padding: 30px;
+    width: 90%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
